@@ -8,8 +8,7 @@
 **A comprehensive database of ligand-signatures to predict cell-cell communication.** <br />
  <br />
 Ligand-receptor interactions mediate intercellular communication, inducing transcriptional changes that regulate physiological and pathological processes. Ligand-induced transcriptomic signatures can be used to predict active ligands; however, the absence of a comprehensive set of ligand-response signatures has limited their practical application in predicting ligand-receptor interactions. To bridge this gap, we developed LigScape, a curated database encompassing intracellular transcriptomic signatures for human ligands. LigScape compiles signatures from published transcriptomic datasets and established resources, generating both gene- and pathway-based signatures for each ligand. <br />
-Using the LigScape database as a reference, we developed a companion computational tool that infers the ligands responsible for transcriptomic changes within receiver cells, and the corresponding cell-cell interaction networks between multiple cell types or clusters. <br />
-We applied LigScape to predict active ligands driving transcriptomic changes in controlled in vitro experiments and real-world single-cell sequencing datasets. LigScape outperformed existing methods, achieving higher accuracy in identifying active ligands at both the gene and pathway levels. These results establish LigScape as a robust platform for ligand signaling inference, providing a powerful tool to explore ligand-receptor biology across diverse experimental and physiological contexts.
+Using the LigScape database as a reference, we developed a companion computational tool [LigScape](https://github.com/yingxinac/LigScape/) that infers the ligands responsible for transcriptomic changes within receiver cells, and the corresponding cell-cell interaction networks between multiple cell types or clusters. 
 
 <hr>
 
