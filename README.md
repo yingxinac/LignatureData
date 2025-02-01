@@ -29,7 +29,7 @@ a list of gene-nodes in KEGG pathways. Each entry of mykegg is a vector of gene-
 
 <hr>
 
-## The companion R package for analyzing cell-cell communication is available at
+**The companion R package for analyzing cell-cell communication is available at**
 [LigScape](https://github.com/yingxinac/LigScape/)
 
 
