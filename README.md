@@ -13,7 +13,7 @@ Using the Lignature database as a reference, we developed a companion computatio
 <hr>
 
 **sigmeta**: <br />
-a data.frame of manually curated meta.data of the Lignature ligand-signatures containing eight columns “sig_id”, “Ligand”, “Organism”, “Celltype.cellline”, “Dose”, “Duration”, “Platform”, and “source”.
+a data.frame of manually curated meta.data of the Lignature ligand-signatures containing eight columns “sig_id”, “Ligand”, “Organism”, “Celltype.cellline”, “Dose”, “Duration”, “Platform”, “source”, and "dataAcc".
 
 **siglist**: <br />
 a list of the Lignature ligand-signatures, in which each entry stores a signature, with the names of the list consistent with the row.names and the “sig_id” column of the data.frame “sigmeta”. 
