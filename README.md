@@ -13,7 +13,7 @@ Using the Lignature database as a reference, we developed a companion computatio
 <hr>
 
 **sigmeta**: <br />
-a data.frame of manually curated meta.data of the Lignature ligand-signatures containing eight columns “sig_id”, “Ligand”, “Organism”, “Celltype.cellline”, “Dose”, “Duration”, “Platform”, “source”, and "dataAcc".
+a data.frame of manually curated meta.data of the Lignature ligand-signatures containing ten columns “sig_id”, “Ligand”, “Organism”, "Source..Cell.lines.Primary.cells.Tissues.Organoids.", “Celltype.cellline”, “Dose”, “Duration”, “Platform”, “Project”, and "dataAcc".
 
 **siglist**: <br />
 a list of the Lignature ligand-signatures, in which each entry stores a signature, with the names of the list consistent with the row.names and the “sig_id” column of the data.frame “sigmeta”. 
@@ -30,6 +30,7 @@ a list of gene-nodes in KEGG pathways. Each entry of mykegg is a vector of gene-
 
 **The companion R package for analyzing cell-cell communication is available at**
 [Lignature](https://github.com/yingxinac/Lignature/)
+
 
 
 
